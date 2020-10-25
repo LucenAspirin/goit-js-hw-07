@@ -7,7 +7,7 @@ const increment = () => {
 };
 const decrement = (event) => {
   if (counterValue > 0)
-    counterValue = --document.querySelector("#value").textContent;
+    counterValue = --counterSpan.textContent;
 };
 counterPlus.addEventListener("click", increment);
 counterMinus.addEventListener("click", decrement);
