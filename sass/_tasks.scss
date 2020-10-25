@@ -43,6 +43,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   background-color: palevioletred;
+  border-radius: 30px;
   width: 300px;
   padding: 15px 30px;
   margin: 0px auto 40px;
@@ -73,6 +74,7 @@ h2 {
 .task {
   color: rgb(114, 70, 82);
   border: 5px dotted #221b1b;
+
   padding: 5px 20px;
   width: fit-content;
   transition: transform 500ms ease, opacity 500ms ease;
