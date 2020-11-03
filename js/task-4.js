@@ -3,7 +3,7 @@ let counterMinus = document.querySelector("[data-action=decrement]");
 let counterSpan = document.querySelector("#value");
 let counterValue = 0;
 const increment = () => {
-  counterValue = ++document.querySelector("#value").textContent;
+  counterValue = ++counterSpan.textContent;
 };
 const decrement = (event) => {
   if (counterValue > 0)
